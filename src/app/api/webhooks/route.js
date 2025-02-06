@@ -51,15 +51,15 @@ export async function POST(req) {
   const { id } = evt.data;
   const eventType = evt.type;
 
-  if (eventType === 'user.created') {
+  if (evt.type === 'user.created') {
     console.log('User Created SUCCCESFULLY');
   }
 
-  if (eventType === 'user.updated') {
+  if (evt.type === 'user.updated') {
     console.log('User updated SUCCCESFULLY');
   }
 
-  if (eventType === 'user.deleted') {
+  if (evt.type === 'user.deleted') {
     console.log('User deleted SUCCCESFULLY');
   }
 
