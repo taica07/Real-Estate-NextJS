@@ -11,7 +11,7 @@ const Header = () => {
         <Link href="/">
           <h1 className="font-bold text-sm sm:text-xl flex flex-wrap">
             <span className="text-slate-500">Penthouse</span>
-            <span className="text-slate-700">Estate = 1:20:16</span>
+            <span className="text-slate-700">Estate = 1:42:48</span>
           </h1>
         </Link>
         <form className="bg-slate-100 p-3 rounded-lg flex items-center">
